@@ -12,9 +12,11 @@ form.addEventListener("submit", (e) => {
 
     if(optionB.value > optionA.value) {
     message.innerHTML = "Fomulário valido";
+    message.classList.remove("invalid")
     message.classList.add("valid")
     } else {
     message.innerHTML = "Fomulário invalido";
+    message.classList.remove("valid")
     message.classList.add("invalid")
     }
 

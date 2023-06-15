@@ -1,0 +1,70 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, input, button, form, textarea {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: rgb(240, 240, 240);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+header {
+    margin-top: 3rem;
+}
+
+main {
+    margin-top: 2rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    
+}
+
+form h2 {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+form input {
+    height: 1.8rem;
+    width: 17rem;
+    padding: .5rem;
+}
+
+form button {
+    background-color: green;
+    border: 1px solid transparent;
+    padding: .25rem .25rem;
+    border-radius: 3px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all ease .7s;
+    width: 5rem;
+
+}
+
+form button:hover {
+    border: 1px solid black;
+    background-color: rgb(1, 97, 1);
+}
+
+ul {
+    margin-top: 2rem;
+}
+
+ul li {
+    cursor: pointer;
+}
+
+
